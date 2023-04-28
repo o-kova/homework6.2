@@ -11,3 +11,8 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+:root {
+  --color-primary: #156963;
+  --color-text: #2c1500;
+}

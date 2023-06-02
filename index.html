@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600&family=Nunito:wght@200;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700&family=Nunito:wght@200;700&display=swap"
       rel="stylesheet"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,9 +19,14 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="shortcut icon"
+      href="/assets/images/head_logo.svg"
+      type="image/x-icon"
+    />
   </head>
-  <body class="">
-    <header class="header">
+  <body class="body">
+    <header class="header container">
       <nav class="nav">
         <ul class="ul">
           <li class="li li1">
@@ -60,19 +65,153 @@
         </section>
         <div class="block1_slider">
           <div class="slider slider1">
-            <img src="/assets/images/arrow_left.svg" alt="arrow_left" />
-            <p class="slider1_p">Previous</p>
+            <div class="block1_arrow">
+              <img src="/assets/images/arrow_left.svg" alt="arrow_left" />
+              <p class="slider1_p">Previous</p>
+            </div>
             <h3 class="slider1_h3">Kaktus Plant</h3>
           </div>
           <div class="slider slider2">
-            <p class="slider2_p">Next</p>
-            <img src="/assets/images/arrow_right.svg" alt="arrow_right" />
+            <div class="block1_arrow">
+              <p class="slider2_p">Next</p>
+              <img src="/assets/images/arrow_right.svg" alt="arrow_right" />
+            </div>
             <h3 class="slider2_h3">Rahasia Plant</h3>
           </div>
         </div>
       </div>
-      <div class="block2 container"></div>
-      <div class="block3"></div>
+      <div class="block2">
+        <div class="block2_item">
+          <div class="block2_head">
+            <img
+              class="block2_img"
+              src="/assets/images/img1-fast.svg"
+              alt="fast-delivery"
+            />
+            <div class="block2_h6">
+              <h6>Fast Delivery</h6>
+            </div>
+          </div>
+          <div class="block2_p">
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard
+            </p>
+          </div>
+        </div>
+        <div class="block2_item">
+          <div class="block2_head">
+            <img
+              class="block2_img"
+              src="/assets/images/img2-headphones.svg"
+              alt="headphones"
+            />
+            <div class="block2_h6">
+              <h6>Great Customer Service</h6>
+            </div>
+          </div>
+          <div class="block2_p">
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard
+            </p>
+          </div>
+        </div>
+        <div class="block2_item">
+          <div class="block2_head">
+            <img
+              class="block2_img"
+              src="/assets/images/img3-plant.svg"
+              alt="plant"
+            />
+            <div class="block2_h6">
+              <h6>Original Plants</h6>
+            </div>
+          </div>
+          <div class="block2_p">
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard
+            </p>
+          </div>
+        </div>
+        <div class="block2_item">
+          <div class="block2_head">
+            <img
+              class="block2_img"
+              src="/assets/images/img4-dollar-symbol.svg"
+              alt="dollar-symbol"
+            />
+            <div class="block2_h6">
+              <h6>Affordable Price</h6>
+            </div>
+          </div>
+          <div class="block2_p">
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="block3 container">
+        <div class="block3_head">
+          <div class="block3_h3">
+            <h3>Featured Plants</h3>
+          </div>
+          <select name="price order" id="selection_price">
+            <option selected value="Cheaper First">Cheaper First</option>
+            <option value="First More Expensive">First More Expensive</option>
+          </select>
+        </div>
+        <div class="block3_items">
+          <div class="block3_item">
+            <img
+              src="/assets/images/plant-1.png"
+              alt="plant"
+              class="block3_img"
+            />
+            <p class="block3_p1">Kaktus Plants</p>
+            <p class="block3_p2">IDR 85.000</p>
+          </div>
+          <div class="block3_item">
+            <img
+              src="/assets/images/plant-2.png"
+              alt="plant"
+              class="block3_img"
+            />
+            <p class="block3_p1">Landak Plants</p>
+            <p class="block3_p2">IDR 105.000</p>
+          </div>
+          <div class="block3_item">
+            <img
+              src="/assets/images/plant-3.png"
+              alt="plant"
+              class="block3_img"
+            />
+            <p class="block3_p1">Kecubung Plants</p>
+            <p class="block3_p2">IDR 85.000</p>
+          </div>
+          <div class="block3_item">
+            <img
+              src="/assets/images/plant-4.png"
+              alt="plant"
+              class="block3_img"
+            />
+            <p class="block3_p1">Kecubung Plants</p>
+            <p class="block3_p2">IDR 85.000</p>
+          </div>
+          <div class="block3_item">
+            <img
+              src="/assets/images/plant-5.png"
+              alt="plant"
+              class="block3_img"
+            />
+            <p class="block3_p1">Kecubung Plants</p>
+            <p class="block3_p2">IDR 85.000</p>
+          </div>
+        </div>
+      </div>
       <div class="block4"></div>
       <div class="block5"></div>
     </main>

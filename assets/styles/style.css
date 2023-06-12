@@ -54,12 +54,16 @@
   background-color: var(--color-basic);
 }
 
-.li5:hover {
+.back-col:hover {
   background-color: #1a8a83;
 }
 
 .signin {
   color: #ffffff;
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 .main {
@@ -184,6 +188,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 32px;
+  justify-items: center;
 }
 
 .block2_item {
@@ -274,6 +279,102 @@
   text-align: center;
 }
 
-.pointer {
-  cursor: pointer;
+/* block4 */
+
+.block4 {
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 84px;
+}
+
+.block4_text {
+  padding: 0 25px 74px 23px;
+}
+
+.block4_h2 {
+  width: 522px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 56px;
+  color: var(--color-text);
+}
+
+.block4_p {
+  width: 506.69px;
+  padding-top: 16px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  color: var(--color-text);
+  opacity: 0.8;
+}
+
+.block4_img1 {
+  padding-bottom: 8px;
+  width: 568px;
+  height: 250px;
+}
+
+.block4_img2 {
+  width: 513px;
+  height: 609.9px;
+}
+
+/* block5 */
+
+.block5 {
+  margin-bottom: 80px;
+  display: flex;
+  gap: 8px;
+  background-color: #f3f4f6;
+}
+
+.block5_content {
+  padding: 88px 0 88px 97px;
+}
+
+.block5_h2 {
+  padding-bottom: 32px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 56px;
+  color: var(--color-text);
+}
+
+.block5_a {
+  padding: 8px 20px;
+  justify-content: flex-start;
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #fafefe;
+  background-color: var(--color-basic);
+}
+
+.block5_img {
+  width: 480px;
+  height: 360px;
+  justify-content: flex-end;
+}
+
+/* footer */
+.footer {
+  padding: 60px 0 71px;
+  border-top: 1px solid rgb(211, 227, 226);
+}
+
+.footer_h1 {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--color-basic);
 }
